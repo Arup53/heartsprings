@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scaleBg {
+  0% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 110%;
+  }
+}
+
+@media (min-width: 768px) {
+  .scale-bg-animation {
+    animation: scaleBg 15s ease-in-out forwards;
+  }
+}
