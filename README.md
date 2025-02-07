@@ -4,7 +4,7 @@
 
 ⚠️ **WARNING**- Third-party cookies must be allowed from browser , otherwise it will logout user.
 
-[Heartsprings Live](#) (https://demo1-c8fa2.firebaseapp.com)
+[Heartsprings Live](https://demo1-c8fa2.firebaseapp.com)
 
 ## ✨ Key Features
 
