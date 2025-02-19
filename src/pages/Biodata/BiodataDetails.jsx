@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Link, useParams } from "react-router-dom";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import { useAuth } from "../../context/AuthProvider";
-import useAxiosSecure, { axiosSecure } from "../../hooks/useAxios";
+import useAxiosSecure from "../../hooks/useAxios";
 import { useState } from "react";
 
 function BiodataDetails() {
@@ -114,7 +114,9 @@ function BiodataDetails() {
             Add to favourite
           </button>
           <Link
-            className={`text-sm bg-amber-500 text-white px-2 py-1 rounded hover:bg-amber-600 ${premium === true ? "hidden" : "inline"}`}
+            className={`text-sm bg-amber-500 text-white px-2 py-1 rounded hover:bg-amber-600 ${
+              premium === true ? "hidden" : "inline"
+            }`}
             state={data}
             to={`/checkout/${id}`}
           >
