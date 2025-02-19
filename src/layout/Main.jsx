@@ -9,9 +9,6 @@ function Main() {
   const footerRef = useRef(null);
   const aboutUsref = useRef(null);
 
-  // const noHeaderFooter =
-  //   pathname.includes("login") || pathname.includes("signup");
-
   const scrollToFooter = () => {
     footerRef.current?.scrollIntoView({ behavior: "smooth" });
   };
