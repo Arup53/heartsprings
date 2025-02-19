@@ -8,7 +8,7 @@ function CheckOut() {
   const location = useLocation();
   location.state;
 
-  const { name, BioId, mobile, email } = location.state || {};
+  const { BioId } = location.state || {};
 
   return (
     <div className="min-h-[calc(100vh-200px)]">
